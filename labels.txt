@@ -1,0 +1,9 @@
+0 Dislike
+1 Goodjob
+2 Goodluck
+3 Hangout
+4 Hello
+5 Iloveyou
+6 Loser
+7 No
+8 Yes
