@@ -19,7 +19,7 @@ RTC_CONFIGURATION = RTCConfiguration(
 class HandGestureApp(VideoProcessorBase):
     def __init__(self):
         self.detector = HandDetector(maxHands=1)
-        self.classifier = Classifier("C:/Users/Parvathy/Downloads/Model-20230820T064858Z-001/Model/keras_model.h5", "C:/Users/Parvathy/Downloads/Model-20230820T064858Z-001/Model/labels.txt")
+        self.classifier = Classifier("keras_model.h5", "labels.txt")
 
         self.offset = 20
         self.imgSize = 300
